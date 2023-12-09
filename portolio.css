@@ -1,0 +1,347 @@
+/* nev-bar start */
+*{
+    margin: 0px;
+    padding: 0px;;
+}
+  
+  ul {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    /* text-align: center; */
+    display: flex;
+    list-style: none;
+   
+    
+  }
+  
+  
+  ul li a {
+    color: black;
+    font-size: 15px;
+    margin: 20px 20px;
+    text-decoration: none;
+
+    
+  }
+  
+  .header-menu-bar {
+    background-color: aqua;
+    height: 55px;
+    
+    
+  }
+  
+  /* nev-bar end */
+  /* about */
+  .about{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* background-color: blue; */
+
+  }
+  #about-1{
+    width: 50%;
+    height: 500px;
+    /* background-color: aqua; */
+    
+  }
+  #about-2{
+    width: 50%;
+    height: 500px;
+    /* background-color: rgb(233, 255, 255); */
+  }
+  #about-text-1{
+    margin-top: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: green;
+    text-align: center;
+    font-size: 3em;
+    font-family:   'Times New Roman';
+  }
+  #about-text-2{
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    font-size: 2em;
+    font-family: 'Times New Roman';
+  }
+  .about-btn{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    color: green;
+    
+  }
+   .social{
+    margin-top: 30px; 
+    
+  } 
+/* end about */
+/* what i do */
+.whatido{
+  height: 400px;
+  width: 100%;
+  display: flex;
+
+}
+#whatido1{
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(152, 152, 185); */
+
+}
+#whatido2{
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+
+}
+#whatido-text-2{
+  padding-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+  font-size: 2em;
+  font-family: 'Times New Roman';
+}
+#whatido-text-1{
+  margin-top: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: green;
+  text-align: center;
+  font-size: 3em;
+  font-family:   'Times New Roman';
+}
+.pl{
+  margin-top: 30px; 
+  
+} 
+/* proficiency */
+/* start*/
+.proficiency{
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+#proficiency1{
+  height: 100%;
+  width: 50%;
+}
+#proficiency2{
+  height: 100%;
+  width: 50%;
+}
+* {
+  box-sizing: border-box;
+border-radius: 10px;
+margin-left: 5px;
+}
+
+
+
+.container {
+  float: right;
+  width: 100%;
+  background-color: #ddd;
+  
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+font-size: x-large;
+
+}
+
+.html {
+  width: 90%;
+  background-color: #04AA6D;
+}
+
+.css {
+  width: 85%;
+  background-color: #2196F3;
+}
+
+.js {
+  width: 97%;
+  background-color: #f44336;
+}
+
+.php {
+  width: 90%;
+  background-color: #808080;
+}
+
+.container-1 {
+  float: left;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skill {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.aps {
+  width: 90%;
+  background-color: #04AA6D;
+}
+
+.ai {
+  width: 85%;
+  background-color: #2196F3;
+}
+
+.aae {
+  width: 97%;
+  background-color: #f44336;
+}
+
+.S {
+  width: 90%;
+  background-color: #808080;
+}
+
+/* proficiency ---->end */
+/* project ----> */
+.project{
+  height: 400px;
+  width: 100%;
+  display: flex;
+}
+.project1{
+  box-sizing: border-box;
+  width: 24%;
+  height: 400px;
+  /* background-color: aqua; */
+border-radius: 10%;
+
+
+
+}
+#project1{
+  height: 200px;
+background-color: #d1c407;
+border-radius: 10%  10% 0% 0%;
+  
+  }
+  
+  
+  
+  #project2{
+    height: 50px;
+  background-color: #07d133;
+  border-radius: 0%;
+    
+    }
+    #project3{
+      height: 150px;
+  background-color: #aa0404;
+border-radius: 0%  0% 10% 10%;
+
+
+      
+      }
+
+
+/* certification ----> */
+.certification{
+  height: 400px;
+  width: 100%;
+  display: flex;
+}
+.certification1{
+  box-sizing: border-box;
+  width: 24%;
+  height: 400px;
+  /* background-color: aqua; */
+border-radius: 10%;
+
+
+
+}
+#certification1{
+  height: 200px;
+background-color: #d1c407;
+border-radius: 10%  10% 0% 0%;
+  
+  }
+  
+  
+  
+  #certification2{
+    height: 50px;
+  background-color: #07d133;
+  border-radius: 0%;
+    
+    }
+    #certification3{
+      height: 150px;
+  background-color: #aa0404;
+border-radius: 0%  0% 10% 10%;
+
+
+      
+      }
+      #con {
+        float: none;
+        
+      }
+      .jarina{
+        /* margin-top: 50px; */
+        height: 500px;
+        /* width: 400px; */
+        float: right;
+        padding-right: 22px;
+       
+        font-size: 1em;
+      
+      }
+      #hjk{
+        
+        margin: 5px;
+        padding: 5px;
+      
+      
+      }
+
+      .footlogo{
+        background-color: #38f709;
+        height: 80px;
+        width: 300px;
+      }
+      .foot{
+        /* margin-top: -25pc; */
+        padding: o;
+      }
+
+      input{
+        width: 300px;
+        height: 30px;
+        border-radius: 20px;
+        text-align: center;
+        font-size: medium;
+    }
+    .header{
+        font: 1em sans-serif;
+        height: 500px;
+    }
+    #con{
+        margin-left: 30px;
+        font-size: larger;
+    }
+      
+
